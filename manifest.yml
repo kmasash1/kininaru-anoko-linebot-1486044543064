@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: kininaru-anoko-linebot
+  host: kininaru-anoko-linebot
+  disk_quota: 1024M
+  services:
+  - kininaru-anoko-linebot-cloudantNoSQLDB
+  - kininaru-anoko-linebot-tone
